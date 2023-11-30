@@ -30,10 +30,14 @@ cal2 = Calculator()
 # ------------------------------
 
 class FourCal :
-  pass
-
+  def setdata(self, first, second):
+    self.first = first
+    self.second = second
 
 b = FourCal()
-print(b)
+b.setdata(4,2)
+print(b.first, b.second)
+
+
 
 
