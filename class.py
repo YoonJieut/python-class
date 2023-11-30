@@ -37,12 +37,23 @@ class FourCal :
   def add(self):
     result = self.first + self.second
     return result
-  
+  def mul(self):
+    result = self.first * self.second
+    return result
+  def sub(self):
+    result = self.first - self.second
+    return result
+  def div(self):
+    result = self.first / self.second
+    return result
 
 b = FourCal()
 b.setdata(4,2)
 print(b.first, b.second)
 print("add메서드 호출",b.add())
+print("mul메서드 호출",b.mul())
+print("sub메서드 호출",b.sub())
+print("div메서드 호출",b.div())
 
 
 
