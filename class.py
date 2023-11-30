@@ -33,10 +33,18 @@ class FourCal :
   def setdata(self, first, second):
     self.first = first
     self.second = second
+    
+  def add(self):
+    result = self.first + self.second
+    return result
+  
 
 b = FourCal()
 b.setdata(4,2)
 print(b.first, b.second)
+print("add메서드 호출",b.add())
+
+
 
 
 
