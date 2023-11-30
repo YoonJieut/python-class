@@ -22,8 +22,18 @@ cal1 = Calculator()
 cal2 = Calculator()
 
 
-print(cal1.add(3))
-print(cal2.add(45))
-print(cal2.add(5))
+# print(cal1.add(3))
+# print(cal2.add(45))
+# print(cal2.add(5))
+
+
+# ------------------------------
+
+class FourCal :
+  pass
+
+
+b = FourCal()
+print(b)
 
 
