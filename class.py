@@ -24,4 +24,6 @@ cal2 = Calculator()
 
 print(cal1.add(3))
 print(cal2.add(45))
+print(cal2.add(5))
+
 
