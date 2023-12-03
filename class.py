@@ -14,7 +14,7 @@ cal2 = Calc()
 # print(cal2.add(1))
 # print(cal2.add(2))
 
-# 상속은 인자로 넣으면 된다.
+# 상속은 인자로 넣으면 된다. (inheritance)
 
 class SetNumber:
   def __init__ (self, first, second):
