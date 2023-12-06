@@ -29,3 +29,5 @@ class ADD(SetNumber):
 instance = ADD(4,5) #클레스를 호출할 땐, 변수 즉, 메모리를 할당해주어야 한다. 
 print(instance.addFS()) # 이후 객체 점접근법을 활용해서 메서드를 실행한다. // 실행문은 none이 나온다.
 print(instance.result) # 콘솔에 결과를 출력한 결과 9가 바르게 나오게 된다.
+
+# a메서드 오버라이딩
